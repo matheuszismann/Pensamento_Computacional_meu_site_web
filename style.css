@@ -1,8 +1,8 @@
 body {
 
-background-color: rgba(30, 29, 29, 0.915);
+background-color: black;
 
-color: rgba(191, 204, 12, 0.911);
+color: yellow;
 
 font-family:  "Edu NSW ACT Hand Pre", cursive;
 margin: 0px;
@@ -43,3 +43,4 @@ background-color: rgb(13, 60, 189);
 .chamada-texto  {
 
 margin-right: 10%;
+}
