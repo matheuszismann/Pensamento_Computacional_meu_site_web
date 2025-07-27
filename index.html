@@ -1,34 +1,26 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MATHEUS-8°A-FLIX</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com"&gt;
-    <link rel="preconnect" href="https://fonts.gstatic.com&quot; crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap&quot;
-        rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <title>Catálogo Netflix Clone</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <header>MATHEUS-8°A-FLIX </header>
-    <section>
-        <div class="chamada-texto">
-            <h1>Indicação de séries para o curso </h1>
-            <p>Assista as recomendações da semana</p>
-        </div>
-        <div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/N6HGuJC--rk?si=QGt1JapKiZjubmJH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+  <header>
+    <h1>Catálogo de Filmes</h1>
+  </header>
+  <main>
+    <section class="movie-row" id="movie-row">
+      <!-- Os filmes serão inseridos aqui via JS -->
     </section>
+    <div id="trailer-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" id="close-btn">&times;</span>
+        <iframe id="trailer-frame" width="800" height="450" 
+          src="" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
 </body>
-
 </html>
